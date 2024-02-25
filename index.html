@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Date Period Slider</title>
+	</head>
+	<body>
+		<div class="conteiner">
+			<div class="switcher">
+				<button class="switcher__button active" id="year-button">
+					Все года
+				</button>
+				<button class="switcher__button" id="month-button">
+					Месяца
+				</button>
+			</div>
+
+			<div class="slider">
+				<div class="slider__track"></div>
+
+				<div class="slider__range-value" id="range-value-one"></div>
+				<input type="range" id="slider-one" step="1" />
+
+				<div class="slider__range-value" id="range-value-two"></div>
+				<input type="range" id="slider-two" step="1" />
+			</div>
+			<span></span>
+			<div class="slider__labels"></div>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
